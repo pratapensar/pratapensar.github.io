@@ -1,0 +1,77 @@
+{
+    "message": "Data found.",
+    "records": [
+        {
+            "dispenserId": 191,
+            "dispenserName": "5/6",
+            "pumpErrorLogs": [
+                {
+                    "pumpErrorLogId": 152136,
+                    "sideLabel": "B",
+                    "sideLabelDescription": "Side B",
+                    "dataSource": "ePumpOperation",
+                    "errorCode": "EC4307",
+                    "errorDescription": "Blends are not programmed",
+                    "severityLevel": 2,
+                    "severityLevelDescription": "Major",
+                    "modelId": 3,
+                    "modelName": "Encore 500S",
+                    "dispenserTimestamp": "2021-03-13 16:59:21",
+                    "deviceTimestamp": "2021-11-18 22:04:16",
+                    "deviceTimestampTimezone": "CST"
+                },
+                {
+                    "pumpErrorLogId": 152135,
+                    "sideLabel": "A",
+                    "sideLabelDescription": "Side A",
+                    "dataSource": "ePumpOperation",
+                    "errorCode": "EC4307",
+                    "errorDescription": "Blends are not programmed",
+                    "severityLevel": 2,
+                    "severityLevelDescription": "Major",
+                    "modelId": 3,
+                    "modelName": "Encore 500S",
+                    "dispenserTimestamp": "2021-03-13 16:59:21",
+                    "deviceTimestamp": "2021-11-18 22:04:16",
+                    "deviceTimestampTimezone": "CST"
+                },
+                {
+                    "pumpErrorLogId": 152126,
+                    "sideLabel": "B",
+                    "sideLabelDescription": "Side B",
+                    "dataSource": "ePumpOperation",
+                    "errorCode": "EC4307",
+                    "errorDescription": "Blends are not programmed",
+                    "severityLevel": 2,
+                    "severityLevelDescription": "Major",
+                    "modelId": 3,
+                    "modelName": "Encore 500S",
+                    "dispenserTimestamp": "2021-01-13 12:00:09",
+                    "deviceTimestamp": "2021-11-18 22:04:16",
+                    "deviceTimestampTimezone": "CST"
+                }
+            ]
+        },
+        {
+            "dispenserId": 192,
+            "dispenserName": "7/8",
+            "pumpErrorLogs": []
+        }
+    ],
+    "info": {
+        "recordCount": 2,
+        "extractType": "list",
+        "pageOffset": 0,
+        "pageLimit": 3,
+        "sortField": "deviceTimestamp",
+        "sortOrder": -1,
+        "severityLevel": [
+            1,
+            2
+        ],
+        "filter": {
+            "siteId": 43,
+            "siteName": "Giovanni test Greensboro"
+        }
+    }
+}
