@@ -1,0 +1,100 @@
+{
+  "listIdentityQuestions": [
+    {
+      "correctIndex": 1, 
+      "question": "1. Have you or someone in your household tested positive for COVID-19?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "2. Do you have any of the following new or worsening\u00a0symptoms or signs like Fever or Chills?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Difficulty breathing or shortness of breath?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Cough?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Sore throat, trouble swallowing?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Runny nose/stuffy nose or nasal congestion?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Decrease or loss of smell or taste?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Nausea, vomiting, diarrhea, abdominal pain?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "Not feeling well, extreme tiredness, sore muscles?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "3. Have you travelled outside of Canada in the past 14 days?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "4. Have you been in direct contact with someone who has tested positive for COVID-19 in the past 14 days?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }, 
+    {
+      "correctIndex": 1, 
+      "question": "5. Have you or someone in your household been directed by a health care provider, including a public health professional, to isolate?", 
+      "answers": [
+        "Yes", 
+        "No"
+      ]
+    }
+  ]
+}
