@@ -4,74 +4,219 @@
         {
             "dispenserId": 191,
             "dispenserName": "5/6",
-            "pumpErrorLogs": [
-                {
-                    "pumpErrorLogId": 152136,
-                    "sideLabel": "B",
-                    "sideLabelDescription": "Side B",
-                    "dataSource": "ePumpOperation",
-                    "errorCode": "EC4307",
-                    "errorDescription": "Blends are not programmed",
-                    "severityLevel": 2,
-                    "severityLevelDescription": "Major",
-                    "modelId": 3,
-                    "modelName": "Encore 500S",
-                    "dispenserTimestamp": "2021-03-13 16:59:21",
-                    "deviceTimestamp": "2021-11-18 22:04:16",
-                    "deviceTimestampTimezone": "CST"
-                },
-                {
-                    "pumpErrorLogId": 152135,
-                    "sideLabel": "A",
-                    "sideLabelDescription": "Side A",
-                    "dataSource": "ePumpOperation",
-                    "errorCode": "EC4307",
-                    "errorDescription": "Blends are not programmed",
-                    "severityLevel": 2,
-                    "severityLevelDescription": "Major",
-                    "modelId": 3,
-                    "modelName": "Encore 500S",
-                    "dispenserTimestamp": "2021-03-13 16:59:21",
-                    "deviceTimestamp": "2021-11-18 22:04:16",
-                    "deviceTimestampTimezone": "CST"
-                },
-                {
-                    "pumpErrorLogId": 152126,
-                    "sideLabel": "B",
-                    "sideLabelDescription": "Side B",
-                    "dataSource": "ePumpOperation",
-                    "errorCode": "EC4307",
-                    "errorDescription": "Blends are not programmed",
-                    "severityLevel": 2,
-                    "severityLevelDescription": "Major",
-                    "modelId": 3,
-                    "modelName": "Encore 500S",
-                    "dispenserTimestamp": "2021-01-13 12:00:09",
-                    "deviceTimestamp": "2021-11-18 22:04:16",
-                    "deviceTimestampTimezone": "CST"
-                }
-            ]
+            "crindStatus": {
+                "cardReader": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "CardReader",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "CardReader",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "printer": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "Printer",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "Printer",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "display": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "Display",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "Display",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "keyboard": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "Keyboard",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "Keyboard",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-10-28 11:41:49",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "host": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "HOST",
+                        "componentStatus": "Offline",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-12-15 16:37:04",
+                        "deviceTimestampTimezone": "CST"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "HOST",
+                        "componentStatus": "Offline",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-12-15 16:37:04",
+                        "deviceTimestampTimezone": "CST"
+                    }
+                ],
+                "contactLessCardReader": []
+            }
         },
         {
             "dispenserId": 192,
             "dispenserName": "7/8",
-            "pumpErrorLogs": []
+            "crindStatus": {
+                "cardReader": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "CardReader",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:08",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "CardReader",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:09",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "printer": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "Printer",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:09",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "Printer",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:09",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "display": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "Display",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:08",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "Display",
+                        "componentStatus": "Idle",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:09",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "keyboard": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "Keyboard",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:08",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "Keyboard",
+                        "componentStatus": "Disabled",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:09",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "host": [
+                    {
+                        "sideLabel": "A",
+                        "componentName": "HOST",
+                        "componentStatus": "Connected",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:08",
+                        "deviceTimestampTimezone": "CDT"
+                    },
+                    {
+                        "sideLabel": "B",
+                        "componentName": "HOST",
+                        "componentStatus": "Connected",
+                        "errorInfo": null,
+                        "extendedStatus": null,
+                        "deviceTimestamp": "2021-05-13 14:08:08",
+                        "deviceTimestampTimezone": "CDT"
+                    }
+                ],
+                "contactLessCardReader": []
+            }
         }
     ],
     "info": {
-        "recordCount": 2,
-        "extractType": "list",
-        "pageOffset": 0,
-        "pageLimit": 3,
-        "sortField": "deviceTimestamp",
-        "sortOrder": -1,
-        "severityLevel": [
-            1,
-            2
-        ],
-        "filter": {
-            "siteId": 43,
-            "siteName": "Giovanni test Greensboro"
-        }
+        "extractType": "latest"
     }
 }
